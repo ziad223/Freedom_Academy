@@ -1,0 +1,118 @@
+.chooseUs{
+    margin-top: 100px;
+}
+.chooseUs .choose-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.chooseUs .choose-content img{
+  max-width: 500px;
+}
+.chooseUs .choose-wrapper h2{ 
+  color: var(--main-color);
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  width: max-content;
+    text-align: center;
+    margin: auto;
+    padding: 20px 60px;
+    color: var(--main-color);
+    border: 3px dotted var(--color-yellow);
+
+}
+.chooseUs .choose-wrapper{
+    text-align: center;
+}
+
+  .chooseUs .choose-wrapper .chooses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .chooseUs .choose-wrapper .chooses .choose-a .choose{
+    margin: 50px;
+  }
+  .chooseUs .choose-wrapper .chooses .choose-a i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+  }
+  .chooseUs .choose-wrapper .chooses .choose-a p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: var(--color-yellow);
+    font-weight: bold;
+    border: 2px dotted var(--main-color);
+    padding: 10px;
+
+  }
+  
+@media screen and (max-width : 480px){
+   .chooseUs .container{
+    width: 100%;
+   }
+    .chooseUs .choose-content{
+        flex-direction: column;
+    }
+    .chooseUs .choose-content img{
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+    .chooseUs .choose-wrapper{
+      max-width: 90%;
+      margin: auto;
+    }
+    .chooseUs .choose-wrapper h2{ 
+      font-size: 25px;
+    }
+    .chooseUs .choose-wrapper h3{ 
+        font-size: 20px;
+      }
+      .chooseUs .choose-wrapper .chooses{
+        flex-direction: column;
+      }
+      .chooseUs .choose-wrapper .chooses .choose-a .choose{
+        margin-top: 100px;
+      }
+      .chooseUs .choose-wrapper .chooses .choose-a i{
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: var(--main-color);
+      }
+      .chooseUs .choose-wrapper .chooses .choose-a h6{
+        font-size: 15px;
+        margin-bottom: 20px;
+        background-color: #ccc;
+        padding: 8px 3px ;
+        border-radius: 10px;
+        width: 100%;
+      }
+     .App.dark .chooseUs .choose-wrapper .chooses .choose-a h6{
+        font-size: 15px;
+        margin-bottom: 20px;
+        background-color: #222;
+        padding: 8px 3px ;
+        border-radius: 10px;
+        width: 100%;
+      }
+    
+      .chooseUs .choose-wrapper .chooses .choose-a p{
+        font-size: 20px;
+      }
+      .btn.choose{
+        width: 280px;
+      }
+}
+@media screen and (min-width : 481px) and (max-width:1200px){
+    .chooseUs .choose-content{
+        flex-direction: column;
+    }
+    .chooseUs .choose-wrapper h2{ 
+      font-size:  40px;
+    }
+    .chooseUs .choose-wrapper h3{ 
+        font-size: 30px;
+      }
+}

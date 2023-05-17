@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --main-color : rgb(196,47,217);
+  --color-yellow :  rgb(206,185,12);
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+*::selection{
+  background-color: var(--white);
+  color:var(--black);
+}
+
+ html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar{
+  height: .5rem;
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color:var(--main-color);
+  border-radius: 5rem;
+} 
+
+.App.dark{
+  background-color: #111;
+}
+
+/* ----------  Navbar Dark ---------------- */
+
+.App.dark .navbar{
+  background-color: transparent;
+  width: 100%;
+  color: #ccc;
+  background-color: #222;
+}
+.App.dark .logo h2{
+  color: #ccc;
+}
+.App.dark  .nav_list_wrapper .nav_list .nav_item{
+  margin-right: 10px;
+}
+
+.App.dark .navbar .nav_item a{
+  color: #ccc;
+}
+.App.dark .logo-link{
+  color: #ccc;
+}
+
+.App.dark .navbar .nav_item a:hover{
+  color: var( --color-yellow);
+}
+.App.dark .nav_list_wrapper{
+  background-color: #222;
+}
+.App.dark .nav_list{
+  background-color: #222;
+}
+
+.App.dark .navbar .nav_list .nav_item:hover{
+ color: orangered;
+}
+
+.App.dark .toggle .lists .list{
+  background-color: transparent;
+  color: #ccc;
+}
+.App.dark .toggle .lists .list:hover{
+  background-color: #111;
+}
+.App.dark .toggle .lists{
+  background-color: #222;
+  z-index: 999;
+  top: 82;
+}
+
+.App.dark .typeWriter{
+  color: var(--color-yellow);
+}
+
+
+
+/* ----------  About Dark ---------------- */
+
+
+.App.dark .about-info{
+  padding: 20px;
+  border-radius: 10px;
+}
+.App.dark .about-content p{
+  color: var(--color-yellow);
+  background-color: #222;
+  padding: 10px;
+}
+
+.App.dark .mobile-content .mobile-info p{
+  color: #ccc;
+}
+.App.dark .mobile-btn{
+ border : 1px solid #ccc;
+ color: #fff;
+}
+
+.App.dark .mobile .mobile-content .mobile-info {
+  padding: 30px;
+}
+.App.dark .mobile .mobile-content .mobile-info p {
+  background-color: #222;
+  color: #ccc;
+  padding: 10px;
+}
+
+
+/* ----------  Menu Dark ---------------- */
+
+.App.dark .menu-content{
+  background-color: #222;
+}
+
+/* ----------  ChooseUs Dark ---------------- */
+
+.App.dark .chooseUs .choose-wrapper h3{
+  color: #ccc;
+}
+.App.dark .chooseUs .choose-wrapper .chooses .choose-a p{
+  color: var(--color-yellow);
+}
+
+.App.dark .all-courses .course p{
+  background-color: #333;
+  color: var(--color-yellow);
+}
+
+/* ----------  Footer Dark ---------------- */
+
+.App.dark .footer{
+  background-color: #222;
+  color: #ccc;
+}
+
+.App.dark .footer-content .footer-links ul .link{
+  color: var(--color-yellow);
+}
+.App.dark .footer-content .footer-social i{
+  color: #fff;
+}
+
+.App.dark .footer-content .footer-links .link:hover{
+  color: var(--main-color);
+} 
+
+.App.dark .footer-btn{
+  color: #ccc;
+}
+
+
+/* ----------  Contact Dark ---------------- */
+
+.App.dark .contact-content{
+  background-color: #222;
+}
+
+.App.dark .contact .contact-content input{
+  background-color: #444;
+}
+.App.dark .contact .contact-content label{
+  color: #ccc;
+}

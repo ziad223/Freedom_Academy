@@ -1,0 +1,68 @@
+.contact{
+    margin-top: 100px ;
+    text-align: center;
+}
+.contact h2{
+    font-size: 35px;
+    color: var(--color-yellow);
+    font-size: 40px;
+    border: 3px dotted var(--main-color);
+    width: max-content;
+    margin: 100px auto ;
+    padding: 20px
+}
+.contact .icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .icons-container .icons{
+    width: 24%;
+    margin: 10px;
+    border: 2px dotted var(--color-yellow); 
+    padding: 20px;  
+}
+.contact .icons-container .icons i{
+    font-size: 30px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+.contact .icons-container .icons h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: var(--color-yellow);
+}
+.contact .icons-container .icons p{
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+  margin-bottom: 20px;
+
+}
+
+@media screen and (max-width : 480px){
+    .contact{
+        margin-top: 100px ;
+    }
+  
+    .contact h2{
+        font-size: 28px;
+        margin-bottom: 50px ;
+    }
+    .contact .icons-container{
+
+        flex-direction: column;
+    }
+    .contact .icons-container .icons{
+        width: 100%;
+    }
+
+    .contact .icons-container .icons p{
+        font-size: 15px;
+        font-weight: bold;
+        color: gray;
+      margin-bottom: 20px;
+    
+    }
+   
+}

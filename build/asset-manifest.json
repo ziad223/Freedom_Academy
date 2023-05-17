@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3dd491e4.css",
+    "main.js": "/static/js/main.c1e226a2.js",
+    "static/media/konor.jfif": "/static/media/konor.6cf5609d814768a3c1a0.jfif",
+    "static/media/about-2.jpg": "/static/media/about-2.b3e902ce81d1fd8f0113.jpg",
+    "static/media/german.jfif": "/static/media/german.11e9ce7ce824fdda13d1.jfif",
+    "static/media/about-3.png": "/static/media/about-3.2ce1fcf0c44b0abe2fe9.png",
+    "static/media/english.jfif": "/static/media/english.1ae9e5f78e8b2cc0b427.jfif",
+    "static/media/paython.jfif": "/static/media/paython.b695fa9c853c3088596d.jfif",
+    "static/media/freedom.png": "/static/media/freedom.d15397a5688761170c16.png",
+    "static/media/graphic.jfif": "/static/media/graphic.fe3475ef7f1849921e10.jfif",
+    "static/media/marketing.jfif": "/static/media/marketing.9bb774e057e8f9d25449.jfif",
+    "static/media/icdl.jfif": "/static/media/icdl.8e21115c978945cb5aec.jfif",
+    "static/media/air.jfif": "/static/media/air.5d765125ef6de586a042.jfif",
+    "static/media/frontend.jfif": "/static/media/frontend.e2083351414fa3624e84.jfif",
+    "static/media/french.jfif": "/static/media/french.f26fff2c52d6b617fc0e.jfif",
+    "static/media/background.avif": "/static/media/background.3c9fe286d371a77f433b.avif",
+    "static/media/mobile1.png": "/static/media/mobile1.f1a532b6efaf73ec16ef.png",
+    "static/media/backgroundDark.jpg": "/static/media/backgroundDark.70659d571ee994dfcd0f.jpg",
+    "index.html": "/index.html",
+    "main.3dd491e4.css.map": "/static/css/main.3dd491e4.css.map",
+    "main.c1e226a2.js.map": "/static/js/main.c1e226a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dd491e4.css",
+    "static/js/main.c1e226a2.js"
+  ]
+}
