@@ -29,7 +29,7 @@ AOS.init({duration : 2000});
             <ul>
               <Link className='link' to="/">Home</Link>
               <Link className='link' to="/about">About</Link>
-              <Link className='link' to="/partner">Courses</Link>
+              <Link className='link' to="/courses">Courses</Link>
               <Link className='link' to="/contact">Contact</Link>
             </ul>
           </div>
