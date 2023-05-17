@@ -207,6 +207,9 @@
         background-color:#eee;
       
     }
+    .navbar .logo img{
+        width : 50px
+    }
     .navbar .container{
         width: 90%;
        }
